@@ -3,6 +3,10 @@ application:
   name: "teabot-api"
   project: "teabot"
   organization: "QoveryCommunity"
+databases:
+- name: "my-redis"
+  type: redis
+  version: 6
 routers:
 - name: "main-teabot-api"
   routes:
