@@ -9,6 +9,9 @@ databases:
   version: 6
 routers:
 - name: "main-teabot-api"
+  custom_domains:
+  - branch: do/test-custom-domain
+    domain: mydo.qvy.io
   routes:
   - application_name: "teabot-api"
     paths:
